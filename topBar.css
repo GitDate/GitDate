@@ -12,7 +12,7 @@
 }
 
 .topicColor{
-    color: #442C97;
+    color: red;
 }
 
 
@@ -33,5 +33,9 @@
 }
 
 .center_div2{
+    transform: translateX(18%)
+}
+
+.center_div3{
     transform: translateX(18%)
 }
