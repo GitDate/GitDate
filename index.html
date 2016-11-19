@@ -25,10 +25,7 @@
       <a class="navbar-brand fontsize" href="#" > GitDate</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Page 1</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="#">Page 3</a></li>
+      
        <!-- <li><a href="#"></a></li> -->
     </ul>
     </div>
@@ -45,10 +42,10 @@
  </div>
 
 <div class = "col-md-2" >  <div class="checkbox">
-      <label><input type="checkbox"> Remember me</label>
+      <label><input type="checkbox" id="checkbox"> Remember me</label>
     </div>
-    <button type="submit" class="btn btn-default">Submit</button> </div>
-    <button type="button" class="btn btn-link registerLink">Haven't register yet?</button>
+    <button type="submit" class="btn btn-default" id="loginSubmit">Submit</button> </div>
+    
 </div>
 
 
@@ -74,10 +71,10 @@
   <p>Choose Your Gender</p>
   <form>
     <label class="radio-inline">
-      <input type="radio" name="optradio">Male
+      <input type="radio" name="optradio" id="Male">Male
     </label>
     <label class="radio-inline">
-      <input type="radio" name="optradio">Female
+      <input type="radio" name="optradio" id="Female">Female
    
   </form>
 </div>
@@ -86,19 +83,19 @@
     <div class="form-group">
       <label class="control-label col-sm-2" for="email">Email:</label>
       <div class="col-sm-3">
-        <input type="email" class="form-control" id="email" placeholder="Enter email">
+        <input type="email" class="form-control" id="registerEmail" placeholder="Enter email">
       </div>
     </div>
     <div class="form-group">
       <label class="control-label col-sm-2" for="pwd">Username:</label>
       <div class="col-sm-3">
-        <input type="Username" class="form-control" id="Username" placeholder="Enter Username">
+        <input type="Username" class="form-control" id="registerUsername" placeholder="Enter Username">
       </div>
     </div>
     <div class="form-group">
       <label class="control-label col-sm-2" for="pwd">Password:</label>
       <div class="col-sm-3">
-        <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+        <input type="password" class="form-control" id="registerPwd" placeholder="Enter password">
       </div>
     </div>
    <!--  <div class="form-group">
@@ -110,7 +107,7 @@
     </div> -->
     <div class="form-group">
       <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-default">Submit</button>
+        <button type="submit" class="btn btn-default" id="registerSubmit">Submit</button>
       </div>
     </div>
   </form>
