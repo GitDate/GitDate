@@ -1,0 +1,31 @@
+.navbar-custom {
+    background-color:#33E3FF;
+    color:#ffffff;
+    border-radius:0;
+}
+
+
+.login{
+	float: right;
+}
+
+.fontsize{
+	font-size: 28;
+	color: yellow;
+}
+
+.registerLink{
+	margin-top: -10;
+}
+
+
+.background{
+	background-image: url("http://wallpapercave.com/wp/xBAfwMQ.jpg");
+	background-repeat: no-repeat;
+    background-position: center center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
