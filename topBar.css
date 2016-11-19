@@ -1,0 +1,37 @@
+.background{
+	background-image: url("http://wallpapercave.com/wp/faVgj7J.jpg");
+	background-repeat: no-repeat;
+    background-position: center center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    /*background-color: rgba(245, 245, 245, 0.4);*/
+
+}
+
+.topicColor{
+    color: #442C97;
+}
+
+
+.navbar-custom {
+    background-color:#442C97;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.movemiddle{
+    text-align:  middle;
+    font-size: 30;
+    font-color: red;
+}
+
+.center_div{
+    transform: translateX(25%)
+}
+
+.center_div2{
+    transform: translateX(18%)
+}
