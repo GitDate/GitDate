@@ -10,17 +10,78 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+ 
+
 
 <link rel="stylesheet" type="text/css" href="topBar.css">
 </head>
 <body class = "background">
-<div class="container-fluid">
+<nav class="navbar navbar-custom">
+  <div class="container-fluid">
     
     <div class = "row">
-    <div class = "col-md-6" ></div>
-<div class = "col-md-6" >
-<div class="container">
+    <div class = "col-md-6" >
+    <div class="navbar-header">
+      <a class="navbar-brand fontsize" href="#" > GitDate</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+       <!-- <li><a href="#"></a></li> -->
+    </ul>
+    </div>
+    <form class="form-inline">
+  
+<div class = "col-md-2" > <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div> </div>
+<div class = "col-md-2" > <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+ </div>
+
+<div class = "col-md-2" >  <div class="checkbox">
+      <label><input type="checkbox"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button> </div>
+    <button type="button" class="btn btn-link registerLink">Haven't register yet?</button>
+</div>
+
+
+</form>  </div>
+</nav>
  
+
+
+
+
+    
+   
+    
+
+
+<div class="container center_div">
+    
+
+    <div class = "center_div2"><h2 class="topicColor">Register Here</h2></div>
+
+    <div class="container center_div2">
+  
+  <p>Choose Your Gender</p>
+  <form>
+    <label class="radio-inline">
+      <input type="radio" name="optradio">Male
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="optradio">Female
+   
+  </form>
+</div>
+    
   <form class="form-horizontal">
     <div class="form-group">
       <label class="control-label col-sm-2" for="email">Email:</label>
@@ -29,18 +90,24 @@
       </div>
     </div>
     <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Username:</label>
+      <div class="col-sm-3">
+        <input type="Username" class="form-control" id="Username" placeholder="Enter Username">
+      </div>
+    </div>
+    <div class="form-group">
       <label class="control-label col-sm-2" for="pwd">Password:</label>
       <div class="col-sm-3">
         <input type="password" class="form-control" id="pwd" placeholder="Enter password">
       </div>
     </div>
-    <div class="form-group">
+   <!--  <div class="form-group">
       <div class="col-sm-offset-2 col-sm-10">
         <div class="checkbox">
           <label><input type="checkbox"> Remember me</label>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="form-group">
       <div class="col-sm-offset-2 col-sm-10">
         <button type="submit" class="btn btn-default">Submit</button>
@@ -48,7 +115,8 @@
     </div>
   </form>
 </div>
-</div>
+
+
 
 <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
