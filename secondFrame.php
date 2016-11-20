@@ -46,7 +46,7 @@
 
 	<div class="tab-content">
 		<div id="q1" class="tab-pane fade in active">
-			<h3>Which meme best describes your life</h3>
+			<h3>Which meme best describes your life?</h3>
 			<img src="https://img.memecdn.com/expectations-vs-reality-tech-support_o_148110.jpg" alt="q1Meme1" height="400px" width="400px">
 			<img src="http://img.memecdn.com/just-life_c_1005322.jpg" alt="q1Meme2" height="400px" width="400px">
 			<img src="http://www.animalmemes.com/wp-content/uploads/2015/01/funny-memes-screw-you-life.jpg" alt="q1Meme3" height="400px" width="400px">
@@ -68,6 +68,7 @@
 		</div>
 
 		<div id="q2" class="tab-pane fade">
+			<h3>Which meme best describes your personality?</h3>
 			<img src="https://i.imgflip.com/x8ckm.jpg" alt="q2Meme1" height="400px" width="400px">
 			<img src="http://s2.quickmeme.com/img/40/40549ef2aec54d88f80885b799b2dec73f6e56ce1332b04056fbc89cbba58ea2.jpg" alt="q2Meme2" height="400px" width="400px">
 			<img src="https://s-media-cache-ak0.pinimg.com/564x/46/00/fd/4600fd802e57b94ec945ce911efbaf93.jpg" alt="q2Meme3" height="400px" width="400px">
@@ -89,6 +90,7 @@
 		</div>
 
 		<div id="q3" class="tab-pane fade">
+			<h3>Which meme is the dankest?</h3>
 			<img src="http://samuel-warde.com/samuel-warde.com/wp-content/uploads/2016/11/15095005_1020885011370204_8056755327864821010_n.jpg" alt="q3Meme1" height="400px" width="400px">
 			<img src="https://i.imgflip.com/15n326.jpg" alt="q3Meme2" height="400px" width="400px">
 			<img src="https://cdn0.vox-cdn.com/uploads/chorus_asset/file/7127387/frog-funny-lmao-lol-Favim.com-3505820.jpg" alt="q3Meme3" height="400px" width="400px">
@@ -110,6 +112,7 @@
 		</div>
 
 		<div id="q4" class="tab-pane fade">
+			<h3>Which meme best describes your experience with programming?</h3>
 			<img src="https://wyncode.co/wp-content/uploads/2014/08/171.jpg" alt="q4Meme1" height="400px" width="400px">
 			<img src="https://wyncode.co/wp-content/uploads/2014/08/31.jpg" alt="q4Meme2" height="400px" width="400px">
 			<img src="https://s3.amazonaws.com/rails-camp-tutorials/blog/programming+memes/states-of-a-programmer.png" alt="q4Meme3" height="400px" width="400px">
@@ -131,6 +134,7 @@
 		</div>
 
 		<div id="q5" class="tab-pane fade">
+			<h3>Which meme would Harambe pick?</h3>
 			<img src="https://img.memecdn.com/harambe-come-back_o_6871339.jpg" alt="q5Meme1" height="400px" width="400px">
 			<img src="https://pics.onsizzle.com/live-harambe-wasinnocent-q-omeg-michael-phelps-is-the-hero-3278030.png" alt="q5Meme2" height="400px" width="400px">
 			<img src="http://i.imgur.com/hk4yXkBl.jpg" alt="q5Meme3" height="400px" width="400px">
