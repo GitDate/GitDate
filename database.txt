@@ -2,29 +2,4 @@ hihi@me:def
 hi@me:ghi
 abc@gmail.com:abcbcd
 hi@me2:456
-<<<<<<< HEAD
-hi@me:
-fewaf@fewafewa:
-fewafwe@fewafewa:
-=======
-abc2@gmail.com:bbc
-hi@me:abc
-hi3@me:123
-hihi@me:def
-hihi@me:def
->>>>>>> 693a9135d20461a4d8d285c172d3f3b8c4cdbd2e
-hihi@me:def
-hihi@me:def
-hihi@me:def
-hihi@me:def
-hi@me:ghi
-hi@me:ghi
-hi@me:ghi
-hi@me:ghi
-hi@me:ghi
-hi@me:ghi
-hi@me:ghi
-hi@me:ghi
-hi@me:ghi
-hi@me:ghi
 hi@me:ghi
