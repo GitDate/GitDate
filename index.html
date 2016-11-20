@@ -8,9 +8,14 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script
+  src="http://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 
  
 
@@ -32,7 +37,7 @@
        <!-- <li><a href="#"></a></li> -->
     </ul>
     </div>
-    <form action="secondFrame.php" method="post" class="form-inline">
+    <form class="form-inline" action="secondFrame.php" name="login" id="login" method="POST">
   
 <div class = "col-md-2" > <div class="form-group">
       <label for="email">Email:</label>
@@ -49,6 +54,7 @@
     </div>
     
 <button type="submit" class="btn btn-default" id="loginSubmit">Submit</button> </div>
+
     <!-- <img id="back" src="background.jpg"  style="width:100px"> -->
 </div>
 
@@ -83,11 +89,11 @@
   </form>
 </div>
     
-  <form class="form-horizontal">
+  <form action="secondFrame.php" method="post" class="form-horizontal">
     <div class="form-group">
       <label class="control-label col-sm-2" for="email">Email:</label>
       <div class="col-sm-3">
-        <input type="email" class="form-control" id="registerEmail" placeholder="Enter email">
+        <input name="email" type="email" class="form-control" id="registerEmail" placeholder="Enter email">
       </div>
     </div>
     <div class="form-group">
@@ -99,7 +105,7 @@
     <div class="form-group">
       <label class="control-label col-sm-2" for="pwd">Password:</label>
       <div class="col-sm-3">
-        <input type="password" class="form-control" id="registerPwd" placeholder="Enter password">
+        <input name="password" type="password" class="form-control" id="registerPwd" placeholder="Enter password">
       </div>
     </div>
    <!--  <div class="form-group">
