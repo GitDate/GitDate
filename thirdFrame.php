@@ -27,9 +27,9 @@
   <table class="table table-striped">
     <thead>
       <tr>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Email</th>
+        <th>Username</th>
+        <th>Human or Humbre</th>
+        <th>Perfect Match</th>
       </tr>
     </thead>
     <tbody>
