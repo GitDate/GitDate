@@ -14,7 +14,7 @@
 
 <link rel="stylesheet" type="text/css" href="topBar.css">
 </head>
-<body>
+<body class="customBack">
 <!-- <p>Welcome <?php echo $_POST['answer1']; ?></p>
 <p>Welcome <?php echo $_POST['answer2']; ?></p>
 <p>Welcome <?php echo $_POST['answer3']; ?></p> -->

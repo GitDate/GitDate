@@ -31,6 +31,7 @@
   		<div class="container">
   			<div class="row">
   				<div class="col-lg-12">
+  				  <img src="http://a1443.phobos.apple.com/us/r30/Purple4/v4/78/32/11/78321183-a77b-ae2c-ea0b-3fc655dfcf6c/mzl.ztuesamk.png" style="width: 60px;height: 60px;">
   					<div style="font-size: 20px">GitDate</div>
   					<ul class="nav nav-tabs">
   						<li class="active"><a data-toggle="tab" href="#q1">Question 1</a></li>
