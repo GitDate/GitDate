@@ -21,7 +21,8 @@
 	$myfile = fopen("database.txt", "a") or die("Unable to open file!");
 	$email = $_POST['email'];
 	$pass = $_POST['password'];
-	$txt = $email . ':' . $pass . "\n";
+    $Username = $_POST['Username'];
+	$txt = $Username . ':' . $email . ':' . $pass  ;
 	fwrite($myfile, $txt);
 	fclose($myfile);
 	?> 
@@ -151,7 +152,7 @@
     				</div>
   				</form>
    				<br>
-   				<a class="btn btn-primary" href="#" id="btnSubmit">Submit</a><br>
+   				<a class="btn btn-primary" href="thirdFrame.php" id="btnSubmit">Submit</a><br>
 			</div>
 		</div>
 		</div>

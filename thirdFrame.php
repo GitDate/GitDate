@@ -15,15 +15,28 @@
 <link rel="stylesheet" type="text/css" href="topBar.css">
 </head>
 <body>
-<p>Welcome <?php echo $_POST['answer1']; ?></p>
+<!-- <p>Welcome <?php echo $_POST['answer1']; ?></p>
 <p>Welcome <?php echo $_POST['answer2']; ?></p>
-<p>Welcome <?php echo $_POST['answer3']; ?></p>
+<p>Welcome <?php echo $_POST['answer3']; ?></p> -->
+
+
 
 <h1 style="text-align: center;">Your Top Matches</h1>
 
 <div class="container">
-  <h2>Striped Rows</h2>
-  <p>The .table-striped class adds zebra-stripes to a table:</p>
+  <?php 
+$myfile = fopen("database.txt", "a") or die("Unable to open file!");
+$randnum = rand(5,15);?>
+<h2>Your Sense of Dankness is</h2>
+  <p><?php echo $randnum ?> out of 15</p>
+<?php
+fwrite($myfile, ":" . $randnum . "\n");
+  fclose($myfile);
+  ?>
+
+
+
+
   <table class="table table-striped">
     <thead>
       <tr>
@@ -33,21 +46,33 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>John</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
+      
+      <?php
+$myfile = fopen("database.txt", "r") or die("Unable to open file!");
+// Output one line until end-of-file
+while(!feof($myfile)) {
+  $line = fgets($myfile) . "<br>";
+  // echo $line; 
+  $Username = substr($line , 0 , strpos($line ,":"));
+  // echo $Username;
+  $score = substr($line, strripos($line, ":")+1);
+  // echo $score;
+  if (strlen($Username) == 0) {
+    break;
+  }
+  ?>
+ 
+  <tr>
+        <td><?php echo $Username ?></td>
+        <td>Human</td>
+        <td><?php echo $score ?></td>
       </tr>
-      <tr>
-        <td>Mary</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
-      </tr>
-      <tr>
-        <td>July</td>
-        <td>Dooley</td>
-        <td>july@example.com</td>
-      </tr>
+
+<?php }
+fclose($myfile);
+?>
+
+
     </tbody>
   </table>
 </div>
