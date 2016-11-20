@@ -30,6 +30,18 @@ function readTextFile(file, x, y) {
     rawFile.send(null);
 }
 
-$('#btnReview').click(function(){
+$('#btnReview0').click(function(){
+  $('.nav-tabs > .active').next('li').find('a').trigger('click');
+});
+
+$('#btnReview1').click(function(){
+  $('.nav-tabs > .active').next('li').find('a').trigger('click');
+});
+
+$('#btnReview2').click(function(){
+  $('.nav-tabs > .active').next('li').find('a').trigger('click');
+});
+
+$('#btnReview3').click(function(){
   $('.nav-tabs > .active').next('li').find('a').trigger('click');
 });
