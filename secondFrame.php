@@ -54,14 +54,24 @@
   				<label><input type="radio" name="meme1">Meme 1</label>
 			</div>
 			<div class="radio">
-  				<label><input type="radio" name="meme2">Meme 1</label>
+  				<label><input type="radio" name="meme2">Meme 2</label>
 			</div>
 			<div class="radio">
-  				<label><input type="radio" name="meme3">Meme 1</label>
+  				<label><input type="radio" name="meme3">Meme 3</label>
 			</div>
 		</div>
 		<div id="q2" class="tab-pane fade">
-
+<img src="https://i.imgflip.com/x8ckm.jpg" alt="q2Meme1" height="400px" width="400px">
+			<img src="http://s2.quickmeme.com/img/40/40549ef2aec54d88f80885b799b2dec73f6e56ce1332b04056fbc89cbba58ea2.jpg" alt="q2Meme2" height="400px" width="400px">
+			<img src=)https://s-media-cache-ak0.pinimg.com/564x/46/00/fd/4600fd802e57b94ec945ce911efbaf93.jpg alt="q2Meme3" height="400px" width="400px">
+			<div class="radio">
+  				<label><input type="radio" name="meme1">Meme 1</label>
+			</div>
+			<div class="radio">
+  				<label><input type="radio" name="meme2">Meme 2</label>
+			</div>
+			<div class="radio">
+  				<label><input type="radio" name="meme3">Meme 3</label>
 		</div>
 		<div id="q3" class="tab-pane fade">
 		</div>
