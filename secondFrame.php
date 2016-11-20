@@ -31,12 +31,12 @@
   			<div class="row">
   				<div class="col-lg-12">
   					<div style="font-size: 20px">GitDate</div>
-  					<ul class="nav nav-pills">
-  						<li class="active"><a data-toggle="pill" href="#q1">Question 1</a></li>
-  						<li><a data-toggle="pill" href="#q2">Question 2</a></li>
-  						<li><a data-toggle="pill" href="#q3">Quesiton 3</a></li>
-  						<li><a data-toggle="pill" href="#q4">Quesiton 4</a></li>
-  						<li><a data-toggle="pill" href="#q5">Quesiton 5</a></li>
+  					<ul class="nav nav-tabs">
+  						<li class="active"><a data-toggle="tab" href="#q1">Question 1</a></li>
+  						<li><a data-toggle="tab" href="#q2">Question 2</a></li>
+  						<li><a data-toggle="tab" href="#q3">Quesiton 3</a></li>
+  						<li><a data-toggle="tab" href="#q4">Quesiton 4</a></li>
+  						<li><a data-toggle="tab" href="#q5">Quesiton 5</a></li>
 					</ul>
   				</div>
   			</div>
@@ -50,6 +50,7 @@
 			<img src="https://img.memecdn.com/expectations-vs-reality-tech-support_o_148110.jpg" alt="q1Meme1" height="400px" width="400px">
 			<img src="http://img.memecdn.com/just-life_c_1005322.jpg" alt="q1Meme2" height="400px" width="400px">
 			<img src="http://www.animalmemes.com/wp-content/uploads/2015/01/funny-memes-screw-you-life.jpg" alt="q1Meme3" height="400px" width="400px">
+<<<<<<< HEAD
 			<div class="radio">
   				<label><input type="radio" name="meme1">Meme 1</label>
 			</div>
@@ -59,6 +60,23 @@
 			<div class="radio">
   				<label><input type="radio" name="meme3">Meme 3</label>
 			</div>
+=======
+			<div class="container">
+ 			 <form>
+    		<div class="radio">
+      		<label><input type="radio" name="meme1" >Meme 1</label>
+   		 </div>
+    <div class="radio">
+      <label><input type="radio" name="meme2">Meme 2</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="meme3" >Meme 3</label>
+    </div>
+  </form>
+   	<br><a class="btn btn-primary" href="#" id="btnReview">Review</a><br>
+</div>
+
+>>>>>>> 9d3c54f4a69403691255b6e8a386f5840f56503f
 		</div>
 		<div id="q2" class="tab-pane fade">
 <img src="https://i.imgflip.com/x8ckm.jpg" alt="q2Meme1" height="400px" width="400px">
@@ -105,6 +123,7 @@
 	</form>
 -->
 
-	
+	<script src="getInfo.js"></script>
+<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</body>
 </html>

@@ -29,3 +29,7 @@ function readTextFile(file, x, y) {
     }
     rawFile.send(null);
 }
+
+$('#btnReview').click(function(){
+  $('.nav-tabs > .active').next('li').find('a').trigger('click');
+});
