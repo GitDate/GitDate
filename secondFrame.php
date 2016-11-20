@@ -4,7 +4,19 @@
 	<title></title>
 </head>
 <body>
-	Welcome <?php echo $_POST['email']; ?>
+
+
+	 <?php
+$myfile = fopen("/Users/apple/Desktop/WildHacks/GitDate/database.txt", "a") or die("Unable to open file!");
+$email = $_POST['email'];
+
+$pass = $_POST['password'];
+
+$txt = $email . ':' . $pass . "\n";
+
+fwrite($myfile, $txt);
+fclose($myfile);
+?> 
 
 	<form action="thirdFrame.php" method="post">
 		<label>Question1</label>
